@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{em-resolv-replace}
-  s.version = "1.1.3"
+  s.version = File.read(File.expand_path('../VERSION', __FILE__))
   s.authors = ["Mike Perham"]
   s.email = %q{mperham@gmail.com}
   s.extra_rdoc_files = [
